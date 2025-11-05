@@ -1,0 +1,18 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 1rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+  opacity: 0.8;
+}

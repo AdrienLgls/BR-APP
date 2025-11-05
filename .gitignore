@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Vite
+dist/
+dist-ssr/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# Images et vidéos de test
+api-ml/test_images/*
+!api-ml/test_images/.gitkeep
+api-ml/output_images/*
+!api-ml/output_images/.gitkeep
+
+# Modèles téléchargés
+*.onnx
+.u2net/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Résultats temporaires
+result.png
+*.tmp
